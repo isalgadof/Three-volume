@@ -1,0 +1,23 @@
+{
+  "name": "three-volume",
+  "version": "1.5.2",
+  "description": "Mesh volume calculator for Three or React Three. Hecho con amor en argentina.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "three",
+    "react",
+    "volume",
+    "stl",
+    "obj",
+    "3d"
+  ],
+  "author": "Hacemos Software",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.152.2"
+  }
+}
