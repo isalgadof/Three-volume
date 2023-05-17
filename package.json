@@ -1,9 +1,10 @@
 {
   "name": "three-volume",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "Mesh volume calculator for Three, w/ React & TS Support. Hecho con amor en argentina.",
   "main": "index.js",
   "type": "module",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,10 +24,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isalgadof/Three-volume"
-  },
-  "files":[
-    "index.js",
-    "index.d.ts"
-  ],
-  "types": "index.d.ts"
+  }
 }
