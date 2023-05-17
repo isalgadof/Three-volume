@@ -23,5 +23,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isalgadof/Three-volume"
-  }
+  },
+  "types": "index.d.ts"
 }
