@@ -24,5 +24,9 @@
     "type": "git",
     "url": "git+https://github.com/isalgadof/Three-volume"
   },
+  "files":[
+    "index.js",
+    "index.d.ts"
+  ],
   "types": "index.d.ts"
 }
