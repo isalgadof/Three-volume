@@ -1,6 +1,6 @@
 import * as THREE from "three";
 
-function calculateVolume(geometry) {
+function calculateVolume({geometry,precision}) {
   let volumen = 0;
   const vertices = geometry.attributes.position.array;
   let indices = geometry.index ? geometry.index.array : null;
@@ -24,7 +24,12 @@ function calculateVolume(geometry) {
     const c = new THREE.Vector3().fromArray(vertices, indices[i + 2] * 3);
     volumen += volumenTriangular(a, b, c);
   }
-  return (Math.abs(volumen/1000));
+  if(precision){
+    return (Math.abs(volumen));
+
+  }else{
+    return (Math.abs(volumen/1000));
+  }
 }
 
 export const ThreeVolume = calculateVolume;
