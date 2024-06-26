@@ -13,7 +13,8 @@ You may use 'precision' arg (optional) to avoid division by 1000 and calculate w
 
 If you are trying to pass a geometry object without standard properties (such as position), you may invoke a new Mesh() object, and type-cast as such:
 
-const mesh = new Mesh(file, new MeshBasicMaterial()); //You can use any material, defaulting to a basic one for simplicity
+const mesh = new Mesh(file, new MeshBasicMaterial()); 
+
 const volume = ThreeVolume(mesh as unknown as BufferGeometry);
 
 
