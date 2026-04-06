@@ -21,8 +21,5 @@
   "dependencies": {
     "three": "^0.152.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/isalgadof/Three-volume"
-  }
+  "repository": "github:isalgadof/Three-volume"
 }
